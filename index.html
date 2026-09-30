@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Waste Collection & Management System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <i class="fas fa-recycle"></i>
+                <span>EcoCycle</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#impact">Impact</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="login.html" class="btn btn-outline nav-cta" style="margin-right:10px;"><i class="fas fa-sign-in-alt"></i> Login</a>
+            <a href="#contact" class="btn btn-primary nav-cta">Schedule Pickup</a>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="floating-particles">
+                <span class="particle p1"></span>
+                <span class="particle p2"></span>
+                <span class="particle p3"></span>
+                <span class="particle p4"></span>
+                <span class="particle p5"></span>
+                <span class="particle p6"></span>
+            </div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-leaf"></i>
+                    Sustainable E-Waste Solutions
+                </div>
+                <h1>Responsible E-Waste Collection <span class="gradient-text">& Management</span></h1>
+                <p class="hero-subtitle">Join the movement to reduce electronic waste. We provide convenient, eco-friendly collection and recycling services for all your electronic devices.</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary btn-lg">
+                        <i class="fas fa-truck"></i> Schedule a Pickup
+                    </a>
+                    <a href="#how-it-works" class="btn btn-outline btn-lg">
+                        <i class="fas fa-play-circle"></i> Learn More
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number" data-target="50000">0</span><span class="stat-suffix">+</span>
+                        <span class="stat-label">Devices Recycled</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-target="120">0</span><span class="stat-suffix">+</span>
+                        <span class="stat-label">Collection Centers</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-target="98">0</span><span class="stat-suffix">%</span>
+                        <span class="stat-label">Recovery Rate</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-card">
+                    <div class="card-icon">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <h3>Old Electronics?</h3>
+                    <p>We accept all types of e-waste for responsible recycling</p>
+                    <div class="accepted-items">
+                        <span><i class="fas fa-mobile-alt"></i> Phones</span>
+                        <span><i class="fas fa-desktop"></i> Computers</span>
+                        <span><i class="fas fa-tv"></i> TVs</span>
+                        <span><i class="fas fa-print"></i> Printers</span>
+                        <span><i class="fas fa-battery-full"></i> Batteries</span>
+                        <span><i class="fas fa-plug"></i> Cables</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">About Us</span>
+                <h2>Leading the Way in <span class="gradient-text">E-Waste Management</span></h2>
+                <p>We are committed to creating a sustainable future through responsible electronic waste management and recycling.</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Secure Data Destruction</h3>
+                    <p>Certified data wiping and physical destruction of storage devices to ensure your sensitive information never falls into the wrong hands.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Eco-Friendly Process</h3>
+                    <p>Our recycling processes follow strict environmental guidelines, ensuring minimal impact on the planet while maximizing resource recovery.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Certified & Compliant</h3>
+                    <p>Fully licensed and compliant with all local, national, and international e-waste regulations and environmental standards.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-hand-holding-heart"></i>
+                    </div>
+                    <h3>Community Impact</h3>
+                    <p>We donate refurbished devices to schools and nonprofits, bridging the digital divide while reducing waste.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Services</span>
+                <h2>Comprehensive <span class="gradient-text">E-Waste Solutions</span></h2>
+                <p>From individual households to large enterprises, we offer tailored e-waste management services.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Residential Pickup</h3>
+                        <p>Convenient door-to-door collection service for households. Schedule a pickup at your convenience and we'll handle the rest.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Free doorstep collection</li>
+                            <li><i class="fas fa-check"></i> Flexible scheduling</li>
+                            <li><i class="fas fa-check"></i> Instant pickup confirmation</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-card featured">
+                    <div class="service-badge">Most Popular</div>
+                    <div class="service-image">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Corporate Solutions</h3>
+                        <p>Comprehensive e-waste management for businesses of all sizes. Bulk collection, asset tracking, and detailed reporting.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Bulk collection service</li>
+                            <li><i class="fas fa-check"></i> Asset tracking & reporting</li>
+                            <li><i class="fas fa-check"></i> Certificate of recycling</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Industrial Recycling</h3>
+                        <p>Specialized handling for industrial electronic equipment, machinery components, and large-scale e-waste processing.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Heavy equipment handling</li>
+                            <li><i class="fas fa-check"></i> On-site processing</li>
+                            <li><i class="fas fa-check"></i> Compliance documentation</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Educational Programs</h3>
+                        <p>Awareness campaigns and collection drives for schools, colleges, and community organizations to promote e-waste education.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Awareness workshops</li>
+                            <li><i class="fas fa-check"></i> Collection drives</li>
+                            <li><i class="fas fa-check"></i> Educational materials</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <i class="fas fa-truck-loading"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Drop-off Centers</h3>
+                        <p>Network of conveniently located drop-off points where you can bring your e-waste for responsible disposal.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> 120+ locations</li>
+                            <li><i class="fas fa-check"></i> Extended hours</li>
+                            <li><i class="fas fa-check"></i> Quick processing</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Refurbishment & Reuse</h3>
+                        <p>We refurbish usable electronics and redistribute them to communities in need, extending device lifecycles.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Quality testing</li>
+                            <li><i class="fas fa-check"></i> Data sanitization</li>
+                            <li><i class="fas fa-check"></i> Warranty included</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works section" id="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Process</span>
+                <h2>How It <span class="gradient-text">Works</span></h2>
+                <p>Our streamlined process makes e-waste disposal simple and hassle-free.</p>
+            </div>
+            <div class="steps-container">
+                <div class="step-line"></div>
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Schedule a Pickup</h3>
+                        <p>Book a collection online, via phone, or through our mobile app. Choose a date and time that works for you.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>We Collect</h3>
+                        <p>Our trained team arrives at your location, carefully collects your e-waste, and provides a collection receipt.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Sorting & Processing</h3>
+                        <p>Items are sorted at our facility. Usable components are refurbished while others are prepared for recycling.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Responsible Recycling</h3>
+                        <p>Materials are processed using eco-friendly methods. Metals, plastics, and rare earth elements are recovered.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h3>Certificate & Report</h3>
+                        <p>Receive a detailed recycling certificate and environmental impact report for your records.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section class="impact section" id="impact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Impact</span>
+                <h2>Making a <span class="gradient-text">Real Difference</span></h2>
+                <p>Every device recycled contributes to a healthier planet. Here's our collective impact so far.</p>
+            </div>
+            <div class="impact-grid">
+                <div class="impact-card">
+                    <div class="impact-icon green">
+                        <i class="fas fa-tree"></i>
+                    </div>
+                    <div class="impact-number" data-target="15000">0</div>
+                    <div class="impact-label">Trees Saved</div>
+                    <p>Through reduced mining and manufacturing of new electronics</p>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-icon blue">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <div class="impact-number" data-target="2500000">0</div>
+                    <div class="impact-label">Liters of Water Saved</p>
+                    <p>By preventing toxic chemicals from contaminating water sources</p>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-icon orange">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <div class="impact-number" data-target="8000">0</div>
+                    <div class="impact-label">MWh Energy Saved</div>
+                    <p>Through material recovery and recycling processes</p>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-icon purple">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <div class="impact-number" data-target="12000">0</div>
+                    <div class="impact-label">Tons CO₂ Prevented</div>
+                    <p>By reducing the need for raw material extraction and processing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Testimonials</span>
+                <h2>What People <span class="gradient-text">Say About Us</span></h2>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"EcoCycle made it so easy to dispose of our old office computers. The team was professional, punctulous, and provided all the compliance documentation we needed."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">RK</div>
+                        <div class="author-info">
+                            <strong>Rajesh Kumar</strong>
+                            <span>IT Manager, TechCorp</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"I love that my old phone will be recycled responsibly instead of sitting in a drawer. The pickup was scheduled within a day and completely free!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">PS</div>
+                        <div class="author-info">
+                            <strong>Priya Sharma</strong>
+                            <span>Homeowner</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Their educational program at our school was fantastic. Students learned so much about e-waste and even organized a collection drive in their neighborhoods."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">AM</div>
+                        <div class="author-info">
+                            <strong>Anita Mehta</strong>
+                            <span>Principal, Green Valley School</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get In Touch</span>
+                <h2>Schedule Your <span class="gradient-text">Pickup Today</span></h2>
+                <p>Ready to dispose of your e-waste responsibly? Fill out the form and we'll take care of the rest.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Our Address</h4>
+                            <p>123 Green Park, Sector 15<br>New Delhi, India - 110001</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Call Us</h4>
+                            <p>+91 98765 43210<br>+91 11 2345 6789</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email Us</h4>
+                            <p>info@ecocycle.in<br>support@ecocycle.in</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h4>Working Hours</h4>
+                            <p>Mon - Sat: 8:00 AM - 8:00 PM<br>Sunday: 10:00 AM - 4:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your full name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Service Type</label>
+                                <select id="service" name="service" required>
+                                    <option value="">Select a service</option>
+                                    <option value="residential">Residential Pickup</option>
+                                    <option value="corporate">Corporate Solutions</option>
+                                    <option value="industrial">Industrial Recycling</option>
+                                    <option value="dropoff">Drop-off Center</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Pickup Address</label>
+                            <input type="text" id="address" name="address" placeholder="Enter your full address" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Additional Details</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Tell us about the items you want to dispose of..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg btn-full">
+                            <i class="fas fa-paper-plane"></i> Submit Request
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="#" class="logo footer-logo">
+                        <i class="fas fa-recycle"></i>
+                        <span>EcoCycle</span>
+                    </a>
+                    <p>Leading the way in responsible e-waste collection and management. Together, we can build a sustainable future for generations to come.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#how-it-works">How It Works</a></li>
+                        <li><a href="#impact">Our Impact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Residential Pickup</a></li>
+                        <li><a href="#">Corporate Solutions</a></li>
+                        <li><a href="#">Industrial Recycling</a></li>
+                        <li><a href="#">Drop-off Centers</a></li>
+                        <li><a href="#">Refurbishment</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe for tips on e-waste management and exclusive offers.</p>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 EcoCycle - E-Waste Collection & Management System. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
